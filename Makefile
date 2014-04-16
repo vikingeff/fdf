@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: plieb <plieb@student.42.fr>                +#+  +:+       +#+         #
+#    By: gleger <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2014/01/09 03:48:49 by plieb             #+#    #+#              #
-#    Updated: 2014/01/09 03:49:53 by plieb            ###   ########.fr        #
+#    Created: 2014/04/16 17:27:47 by gleger            #+#    #+#              #
+#    Updated: 2014/04/16 17:28:09 by gleger           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,11 +16,11 @@ SOURCES = fdf.c draw.c load_data.c tab_of_dot.c print.c color.c\
 
 OBJECTS = $(subst .c,.o,$(SOURCES))
 
-HEADERS = fdf.h libft/includes/libft.h /usr/include/mlx.h
+HEADERS = fdf.h libft/includes/libft.h
 
-FLAGS = -Wall -Werror -Wextra -I libft/includes -I /usr/include/X11
+FLAGS = -Wall -Werror -Wextra -I libft/includes -I /usr/X11/include
 
-MLXFLAGS = -L/usr/lib/X11 -lmlx -L/usr/lib/i386-linux-gnu/ -lX11 -lXext -Llibft -lft
+MLXFLAGS = -L/usr/X11/lib -lmlx -lX11 -lXext -Llibft -lft
 
 LIBFT = libft/libft.a
 
