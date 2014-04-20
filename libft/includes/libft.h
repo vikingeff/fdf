@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: plieb <plieb@student.42.fr>                +#+  +:+       +#+        */
+/*   By: gleger <gleger@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2014/01/08 21:47:15 by plieb             #+#    #+#             */
-/*   Updated: 2014/01/09 04:21:50 by plieb            ###   ########.fr       */
+/*   Created: 2014/01/08 21:47:15 by gleger            #+#    #+#             */
+/*   Updated: 2014/04/20 11:40:05 by gleger           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,8 @@
 
 # include <stdarg.h>
 # include <string.h>
+# include <unistd.h>
+# include <stdlib.h>
 # define BUFF_SIZE 32
 
 typedef struct		s_list

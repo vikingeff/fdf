@@ -3,26 +3,19 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: gleger <marvin@42.fr>                      +#+  +:+       +#+         #
+#    By: gleger <gleger@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/04/16 17:37:02 by gleger            #+#    #+#              #
-#    Updated: 2014/04/16 17:44:58 by gleger           ###   ########.fr        #
+#    Updated: 2014/04/20 11:41:22 by gleger           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
-SOURCES = ft_putchar.c \
-		  ft_putstr.c \
-		  ft_atoi.c \
-		  ft_putnbr.c \
-		  ft_abs.c \
-		  ft_isdigit.c \
+SOURCES = ft_put.c \
+		  ft_is.c \
 		  get_next_line.c \
-		  ft_strchr.c \
-		  ft_strdup.c \
-		  ft_strlen.c \
-		  ft_strcpy.c
-
+		  ft_str.c
+		  
 HEADERS = includes/libft.h
 
 OBJECTS = $(subst .c,.o,$(SOURCES))
