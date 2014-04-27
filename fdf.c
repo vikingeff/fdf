@@ -6,11 +6,11 @@
 /*   By: gleger <gleger@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/12/13 23:48:29 by gleger            #+#    #+#             */
-/*   Updated: 2014/04/20 11:33:35 by gleger           ###   ########.fr       */
+/*   Updated: 2014/04/20 12:21:36 by gleger           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fdf.h"
+#include <fdf.h>
 
 static int		key_hook(int keycode, t_env *e)
 {

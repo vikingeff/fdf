@@ -6,11 +6,11 @@
 /*   By: gleger <gleger@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/12/13 23:48:29 by gleger            #+#    #+#             */
-/*   Updated: 2014/04/20 11:33:49 by gleger           ###   ########.fr       */
+/*   Updated: 2014/04/20 12:21:55 by gleger           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fdf.h"
+#include <fdf.h>
 
 static int		ft_width(char *line)
 {

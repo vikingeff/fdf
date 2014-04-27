@@ -6,7 +6,7 @@
 /*   By: gleger <gleger@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/12/13 23:48:29 by gleger            #+#    #+#             */
-/*   Updated: 2014/04/20 11:33:41 by gleger           ###   ########.fr       */
+/*   Updated: 2014/04/27 12:11:16 by gleger           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,12 +47,12 @@ typedef struct	s_dat
 	char		*argv;
 }				t_dat;
 
-void		draw_map(t_board board, t_env *e);
-int			ft_height(char *argv);
-void		ft_filled(t_board *board, int fd);
-t_dot		**ft_final_tab(t_board *board);
-void		print_tab(t_board board);
-void		print_dot(t_board board);
-int			get_color(t_dot a, t_dot b, double x);
+void			draw_map(t_board board, t_env *e);
+int				ft_height(char *argv);
+void			ft_filled(t_board *board, int fd);
+t_dot			**ft_final_tab(t_board *board);
+void			print_tab(t_board board);
+void			print_dot(t_board board);
+int				get_color(t_dot a, t_dot b, double x);
 
-#endif /* !FDF_H */
+#endif
